@@ -1,0 +1,22 @@
+.graph-content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 3000px;
+}
+
+.board{
+    width: 90%;
+    height: 90%;
+    border: 2px solid green;
+    position: fixed;
+    top: 20px;
+
+}
+.draggable{
+    cursor:move;
+}
